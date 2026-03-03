@@ -439,7 +439,7 @@ function watershed_contour(dir, loc::Vector{CartesianIndex{2}}, nb::Vector{Carte
     R = CartesianIndices(mask)
     I_first, I_last = first(R), last(R)
 
-    @showprogress for (loci, nbi, ti, id) in zip(loc, nb, threshold, ids)
+    @showprogress "Drawing watershed boundaries" for (loci, nbi, ti, id) in zip(loc, nb, threshold, ids)
         _, extent = _watershed!(mask, levees, queue, dir, loci, dem, ti, id)
         xi, yi = min.(loci.I, nbi.I)
 
