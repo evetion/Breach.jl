@@ -1,0 +1,8 @@
+[deps]
+Breach = "39224e9c-798e-42f9-846f-9ed41cb14b62"
+GeoArrays = "2fb1d81b-e6a0-5fc5-82e6-8e06903437ab"
+GeoDataFrames = "62cb38b5-d8d2-4862-a48e-6a340996859f"
+Rasters = "a3a2b9e3-a471-40c9-b274-f788e487c689"
+
+[sources]
+Breach = {path = ".."}
