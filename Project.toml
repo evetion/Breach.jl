@@ -1,6 +1,6 @@
 name = "Breach"
 uuid = "39224e9c-798e-42f9-846f-9ed41cb14b62"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Maarten Pronk <git@evetion.nl>"]
 
 [deps]
@@ -16,8 +16,8 @@ ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 LocalFilters = "085fde7c-5f94-55e4-8448-8bbb5db6dde9"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+QuickHeaps = "30b38841-0f52-47f8-a5f8-18d5d4064379"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
@@ -31,6 +31,13 @@ GeometryOps = "0.1.38"
 LocalFilters = "1.2.2"
 OffsetArrays = "1.17.0"
 ProgressMeter = "1.10.2"
+QuickHeaps = "0.2.3"
 StaticArrays = "1.9.15"
-StaticArraysCore = "1.4.3"
 Statistics = "1.11.1"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Random", "Test"]

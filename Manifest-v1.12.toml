@@ -2,7 +2,7 @@
 
 julia_version = "1.12.5"
 manifest_format = "2.0"
-project_hash = "019ff7ce157a5e9f3c0fd558e0763455e879920f"
+project_hash = "80085916cc679f601b6906fa80d024079d8591eb"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -138,7 +138,7 @@ uuid = "0b7ba130-8d10-5ba8-a3d6-c5182647fed9"
 version = "1.21.7+0"
 
 [[deps.Breach]]
-deps = ["Contour", "DataFrames", "DataStructures", "GeoArrays", "GeoDataFrames", "GeoInterface", "Geomorphometry", "ImageFiltering", "LocalFilters", "OffsetArrays", "ProgressMeter", "StaticArrays", "StaticArraysCore", "Statistics"]
+deps = ["Contour", "DataFrames", "DataStructures", "GeoArrays", "GeoDataFrames", "GeoInterface", "GeometryOps", "Geomorphometry", "ImageFiltering", "LocalFilters", "OffsetArrays", "ProgressMeter", "QuickHeaps", "StaticArrays", "Statistics"]
 path = "."
 uuid = "39224e9c-798e-42f9-846f-9ed41cb14b62"
 version = "0.1.0"

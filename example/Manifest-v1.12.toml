@@ -138,7 +138,7 @@ uuid = "0b7ba130-8d10-5ba8-a3d6-c5182647fed9"
 version = "1.21.7+0"
 
 [[deps.Breach]]
-deps = ["Contour", "DataFrames", "DataStructures", "GeoArrays", "GeoDataFrames", "GeoInterface", "GeometryOps", "Geomorphometry", "ImageFiltering", "LocalFilters", "OffsetArrays", "ProgressMeter", "StaticArrays", "StaticArraysCore", "Statistics"]
+deps = ["Contour", "DataFrames", "DataStructures", "GeoArrays", "GeoDataFrames", "GeoInterface", "GeometryOps", "Geomorphometry", "ImageFiltering", "LocalFilters", "OffsetArrays", "ProgressMeter", "QuickHeaps", "StaticArrays", "Statistics"]
 path = ".."
 uuid = "39224e9c-798e-42f9-846f-9ed41cb14b62"
 version = "0.1.0"
